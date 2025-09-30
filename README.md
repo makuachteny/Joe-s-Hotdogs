@@ -38,7 +38,7 @@
 
 ## Screenshot
 
-![Screenshot of Joe's Hotdog Stand](./demo.png)
+![Demo of Joe's Hotdog Stand](./assets/demo.mov)
 
 ---
 
