@@ -38,7 +38,13 @@
 
 ## Screenshot
 
-![Demo of Joe's Hotdog Stand](./assets/demo.mov)
+![User Interface](./assets/UI.png)
+
+---
+
+## Demo
+
+![Demo](./assets/demo.mov)
 
 ---
 
@@ -48,12 +54,6 @@
 - Implement a backend to save orders.
 - Add user authentication for personalized orders.
 - Include a payment gateway for online transactions.
-
----
-
-## License
-
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
