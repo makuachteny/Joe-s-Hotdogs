@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joe's Hotdog</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-size='80'>🌭</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🌭 JOE'S HOTDOG STAND 🌭</h1>
+        <p class="subtitle">Place your order</p>
+        <img
+          src="/Joes/assets/advert.png"
+          alt="welcome to Joe's Hotdog Stand"
+          class="header-image"
+        />
+      </div>
+
+      <div class="input-section" id="inputSection">
+        <div class="input-group">
+          <label>HOTDOGS <span class="price-badge">[$4.99 EACH]</span></label>
+          <input
+            type="number"
+            id="numDogs"
+            min="0"
+            value="0"
+            placeholder="Enter quantity"
+          />
+        </div>
+        <div class="input-group">
+          <label
+            >FRENCH FRIES <span class="price-badge">[$3.99 EACH]</span></label
+          >
+          <input
+            type="number"
+            id="numFries"
+            min="0"
+            value="0"
+            placeholder="Enter quantity"
+          />
+        </div>
+        <div class="input-group">
+          <label>DRINKS <span class="price-badge">[$1.79 EACH]</span></label>
+          <input
+            type="number"
+            id="numSoda"
+            min="0"
+            value="0"
+            placeholder="Enter quantity"
+          />
+        </div>
+        <button onclick="processOrder()"><span>PROCESS ORDER</span></button>
+      </div>
+
+      <div id="orderDetails"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
