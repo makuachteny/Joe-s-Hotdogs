@@ -59,4 +59,4 @@ This project is open-source and available under the [MIT License](https://openso
 
 ## Author
 
-Created by **Joe's Hotdog Stand Development Team**.
+Created by **Teny makuach*.
